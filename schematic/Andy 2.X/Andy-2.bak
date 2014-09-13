@@ -1,0 +1,341 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Andy-2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "ANDY Circuit Layout"
+Date "13 sep 2014"
+Rev "2.0"
+Comp "Tyler Spadgenske"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_3 K1
+U 1 1 54138469
+P 9150 2550
+F 0 "K1" V 9100 2550 50  0000 C CNN
+F 1 "Right Knee" V 9350 2550 40  0000 C CNN
+F 2 "" H 9150 2550 60  0000 C CNN
+F 3 "" H 9150 2550 60  0000 C CNN
+	1    9150 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K2
+U 1 1 54138476
+P 9150 3300
+F 0 "K2" V 9100 3300 50  0000 C CNN
+F 1 "Right Foot" V 9350 3300 40  0000 C CNN
+F 2 "" H 9150 3300 60  0000 C CNN
+F 3 "" H 9150 3300 60  0000 C CNN
+	1    9150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K3
+U 1 1 5413847C
+P 9150 4000
+F 0 "K3" V 9100 4000 50  0000 C CNN
+F 1 "Left Knee" V 9350 4000 40  0000 C CNN
+F 2 "" H 9150 4000 60  0000 C CNN
+F 3 "" H 9150 4000 60  0000 C CNN
+	1    9150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3 K4
+U 1 1 54138482
+P 9150 4650
+F 0 "K4" V 9100 4650 50  0000 C CNN
+F 1 "Left Foot" V 9350 4650 40  0000 C CNN
+F 2 "" H 9150 4650 60  0000 C CNN
+F 3 "" H 9150 4650 60  0000 C CNN
+	1    9150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5413849C
+P 8150 2450
+F 0 "R4" V 8230 2450 40  0000 C CNN
+F 1 "1K" V 8157 2451 40  0000 C CNN
+F 2 "~" V 8080 2450 30  0000 C CNN
+F 3 "~" H 8150 2450 30  0000 C CNN
+	1    8150 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 541384B8
+P 8150 3200
+F 0 "R5" V 8230 3200 40  0000 C CNN
+F 1 "1K" V 8157 3201 40  0000 C CNN
+F 2 "~" V 8080 3200 30  0000 C CNN
+F 3 "~" H 8150 3200 30  0000 C CNN
+	1    8150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R7
+U 1 1 541384D0
+P 8150 4550
+F 0 "R7" V 8230 4550 40  0000 C CNN
+F 1 "1K" V 8157 4551 40  0000 C CNN
+F 2 "~" V 8080 4550 30  0000 C CNN
+F 3 "~" H 8150 4550 30  0000 C CNN
+	1    8150 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R6
+U 1 1 541384D6
+P 8150 3900
+F 0 "R6" V 8230 3900 40  0000 C CNN
+F 1 "1K" V 8157 3901 40  0000 C CNN
+F 2 "~" V 8080 3900 30  0000 C CNN
+F 3 "~" H 8150 3900 30  0000 C CNN
+	1    8150 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_13X2 P1
+U 1 1 54138526
+P 5700 3400
+F 0 "P1" H 5700 4100 60  0000 C CNN
+F 1 "Raspberry Pi GPIO Header" V 5700 3400 50  0000 C CNN
+F 2 "" H 5700 3400 60  0000 C CNN
+F 3 "" H 5700 3400 60  0000 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 54138584
+P 6650 2350
+F 0 "D1" H 6650 2450 50  0000 C CNN
+F 1 "LED" H 6650 2250 50  0000 C CNN
+F 2 "~" H 6650 2350 60  0000 C CNN
+F 3 "~" H 6650 2350 60  0000 C CNN
+	1    6650 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 54138591
+P 6950 2350
+F 0 "D2" H 6950 2450 50  0000 C CNN
+F 1 "LED" H 6950 2250 50  0000 C CNN
+F 2 "~" H 6950 2350 60  0000 C CNN
+F 3 "~" H 6950 2350 60  0000 C CNN
+	1    6950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 54138597
+P 7300 2350
+F 0 "D3" H 7300 2450 50  0000 C CNN
+F 1 "LED" H 7300 2250 50  0000 C CNN
+F 2 "~" H 7300 2350 60  0000 C CNN
+F 3 "~" H 7300 2350 60  0000 C CNN
+	1    7300 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8800 4550 8400 4550
+Wire Wire Line
+	8400 3900 8800 3900
+Wire Wire Line
+	8800 3200 8400 3200
+Wire Wire Line
+	8800 2450 8400 2450
+Wire Wire Line
+	4350 1650 4350 4000
+Wire Wire Line
+	4350 4000 5300 4000
+Wire Wire Line
+	8500 1650 8500 5000
+Wire Wire Line
+	8500 2650 8800 2650
+Wire Wire Line
+	8500 3300 8800 3300
+Connection ~ 8500 2650
+Wire Wire Line
+	8500 4100 8800 4100
+Connection ~ 8500 3300
+Wire Wire Line
+	8500 4750 8800 4750
+Connection ~ 8500 4100
+Wire Wire Line
+	8650 2550 8650 4650
+Wire Wire Line
+	8650 3400 8800 3400
+Wire Wire Line
+	8650 2550 8800 2550
+Connection ~ 8650 2800
+Wire Wire Line
+	8650 4000 8800 4000
+Connection ~ 8650 3400
+Wire Wire Line
+	8250 4650 8800 4650
+Connection ~ 8650 4000
+$Comp
+L BATTERY BT1
+U 1 1 5413871E
+P 8550 5300
+F 0 "BT1" H 8550 5500 50  0000 C CNN
+F 1 "11.1v 1300mah Lipo Battery" H 8550 5110 50  0000 C CNN
+F 2 "~" H 8550 5300 60  0000 C CNN
+F 3 "~" H 8550 5300 60  0000 C CNN
+	1    8550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5300 8850 5000
+Wire Wire Line
+	8850 5000 8500 5000
+Connection ~ 8500 4750
+Connection ~ 8650 4650
+$Comp
+L R R3
+U 1 1 541387A5
+P 7300 1900
+F 0 "R3" V 7380 1900 40  0000 C CNN
+F 1 "470" V 7307 1901 40  0000 C CNN
+F 2 "~" V 7230 1900 30  0000 C CNN
+F 3 "~" H 7300 1900 30  0000 C CNN
+	1    7300 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 541387CE
+P 6950 1900
+F 0 "R2" V 7030 1900 40  0000 C CNN
+F 1 "470" V 6957 1901 40  0000 C CNN
+F 2 "~" V 6880 1900 30  0000 C CNN
+F 3 "~" H 6950 1900 30  0000 C CNN
+	1    6950 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 541387D4
+P 6650 1900
+F 0 "R1" V 6730 1900 40  0000 C CNN
+F 1 "470" V 6657 1901 40  0000 C CNN
+F 2 "~" V 6580 1900 30  0000 C CNN
+F 3 "~" H 6650 1900 30  0000 C CNN
+	1    6650 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1650 8500 1650
+Connection ~ 6650 1650
+Connection ~ 6950 1650
+Connection ~ 7300 1650
+Wire Wire Line
+	6100 2800 8650 2800
+Wire Wire Line
+	7900 3200 7650 3200
+Wire Wire Line
+	7650 3200 7650 4900
+Wire Wire Line
+	7650 4900 4500 4900
+Wire Wire Line
+	4500 4900 4500 3100
+Wire Wire Line
+	4500 3100 5300 3100
+Wire Wire Line
+	7900 2450 7900 1400
+Wire Wire Line
+	7900 1400 4700 1400
+Wire Wire Line
+	4700 1400 4700 3300
+Wire Wire Line
+	4700 3300 5300 3300
+Wire Wire Line
+	7900 4550 4700 4550
+Wire Wire Line
+	4700 4550 4700 3400
+Wire Wire Line
+	4700 3400 5300 3400
+Wire Wire Line
+	7900 3900 7400 3900
+Wire Wire Line
+	7400 3900 7400 4300
+Wire Wire Line
+	7400 4300 5000 4300
+Wire Wire Line
+	5000 4300 5000 3500
+Wire Wire Line
+	5000 3500 5300 3500
+Wire Wire Line
+	7300 2550 7300 3300
+Wire Wire Line
+	7300 3300 6100 3300
+Wire Wire Line
+	6950 2550 6950 3500
+Wire Wire Line
+	6950 3500 6100 3500
+Wire Wire Line
+	6650 2550 6650 3800
+Wire Wire Line
+	6650 3800 6100 3800
+$Comp
+L SPST SW1
+U 1 1 54138B01
+P 7600 5300
+F 0 "SW1" H 7600 5400 70  0000 C CNN
+F 1 "SPST" H 7600 5200 70  0000 C CNN
+F 2 "~" H 7600 5300 60  0000 C CNN
+F 3 "~" H 7600 5300 60  0000 C CNN
+	1    7600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5300 8100 5300
+Wire Wire Line
+	7100 5300 7000 5300
+Wire Wire Line
+	7000 5300 7000 5000
+Wire Wire Line
+	7000 5000 8250 5000
+Wire Wire Line
+	8250 5000 8250 4650
+$EndSCHEMATC
